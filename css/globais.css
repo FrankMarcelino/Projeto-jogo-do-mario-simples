@@ -4,7 +4,7 @@
     position: absolute;
     bottom: 0;
     width: 80px;
-    animation: pipe-animation 2s infinite linear;
+    animation: pipe-animation 1.5s infinite linear;
 }
 
 @keyframes pipe-animation {
@@ -21,5 +21,51 @@
 /* mario */
 
 .mario {
+    width: 150px;
+    position: absolute;
+    bottom: 0;
     
+}
+
+.pulo {
+    animation: pulo 500ms ease-out;
+}
+
+@keyframes pulo {
+    0% {
+        bottom: 0;
+    }
+
+    40% {
+        bottom: 180px;
+    }
+
+    50% {
+        bottom: 180px;
+    }
+
+    60% {
+        bottom: 180px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
+
+/* nuves */
+
+.nuvens {
+    width: 500px;
+    position: absolute;
+    animation: nuvens-animacao 20s infinite linear;
+}
+@keyframes nuvens-animacao {
+    from {
+        right: -550px;
+    }
+
+    to {
+        right: 100%;
+    }
 }
