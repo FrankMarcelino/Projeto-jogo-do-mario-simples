@@ -1,5 +1,6 @@
 
-
-
 /* reset */
-@import "./reset.css"
+@import "./reset.css";
+
+/* globais */
+@import "./globais.css";
